@@ -2,6 +2,7 @@ package itcarlow.c00112726.vote.gui;
 
 import itcarlow.c00112726.vote.entity.Candidate;
 
+import javax.imageio.ImageIO;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -11,6 +12,7 @@ import javax.swing.border.TitledBorder;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.GridLayout;
+import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -38,19 +40,7 @@ public class Window extends JFrame {
         };
         setContentPane(contentPane);
 
-        /*
-            RANDOM TEST DATA - DELETE BEFORE SUBMITTING OTHERWISE YOU ARE AN IDIOT
-         */
-        Candidate.addCandidate(new Candidate("Michael", "Reid", "PaRtY oN"));
-        Candidate.addCandidate(new Candidate("Christiane", "Zeller", "LADY"));
-        Candidate.addCandidate(new Candidate("Lily", "Cat", "MEOW"));
-        Candidate.addCandidate(new Candidate("Prenses", "Cat", "LADY"));
-        Candidate.addCandidate(new Candidate("Salem", "Cat", "THAT FACE"));
-        Candidate.addCandidate(new Candidate("Pretty", "Lady", "CHRISTIE"));
-        Candidate.addCandidate(new Candidate("Handsome", "Cat", "PaRtY oN"));
-        Candidate.addCandidate(new Candidate("Some", "One", "MEOW"));
-        Candidate.addCandidate(new Candidate("Cinny", "Minny", "WOOF"));
-
+        loadTestData();
 
         generateGUI();
 
@@ -135,5 +125,40 @@ public class Window extends JFrame {
         toolPanel.add(btnExitApplication);
 
         contentPane.add(toolPanel, BorderLayout.SOUTH);
+    }
+
+    private void loadTestData() {
+        /*
+            RANDOM TEST DATA - DELETE BEFORE SUBMITTING OTHERWISE YOU ARE AN IDIOT
+         */
+        try {
+            Candidate c1 = new Candidate("Enda", "Kenny", "Fine Gael");
+            c1.setImage(ImageIO.read(Candidate.class.getResourceAsStream("/test images/enda kenny.jpg")));
+            Candidate.addCandidate(c1);
+
+            Candidate c2 = new Candidate("Gerry", "Adams", "Sinn Fein");
+            c2.setImage(ImageIO.read(Candidate.class.getResourceAsStream("/test images/gerry adams.jpg")));
+            Candidate.addCandidate(c2);
+
+            Candidate c3 = new Candidate("Joan", "Burton", "Fine Gael");
+            c3.setImage(ImageIO.read(Candidate.class.getResourceAsStream("/test images/joan burton.jpg")));
+            Candidate.addCandidate(c3);
+
+            Candidate c4 = new Candidate("Luke \"Ming\"", "Flanagan", "Independent");
+            c4.setImage(ImageIO.read(Candidate.class.getResourceAsStream("/test images/luke ming flanagan.jpg")));
+            Candidate.addCandidate(c4);
+
+            Candidate c5 = new Candidate("Micheal", "Martin", "Fine Fail");
+            c5.setImage(ImageIO.read(Candidate.class.getResourceAsStream("/test images/micheal martin.jpg")));
+            Candidate.addCandidate(c5);
+
+            Candidate c6 = new Candidate("Stephen", "Donnelly", "Independent");
+            c6.setImage(ImageIO.read(Candidate.class.getResourceAsStream("/test images/stephen donnelly.jpg")));
+            Candidate.addCandidate(c6);
+        }
+        catch(Exception e) {
+            e.printStackTrace();
+        }
+
     }
 }
