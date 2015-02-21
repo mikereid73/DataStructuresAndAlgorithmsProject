@@ -84,12 +84,8 @@ public class Candidate {
 		this.party = party;
 	}
 
-    public void setImage(String path) {
-        try {
-            image = ImageIO.read(getClass().getResourceAsStream(path));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public void setImage(BufferedImage image) {
+        this.image = image;
     }
 	
 	public void add(BallotPaper ballot) {
@@ -127,6 +123,6 @@ public class Candidate {
 	
 	@Override
 	public String toString() {
-		return firstName + " " + lastName + " : " + party;
+		return firstName + " " + lastName + " of " + party;
 	}
 }

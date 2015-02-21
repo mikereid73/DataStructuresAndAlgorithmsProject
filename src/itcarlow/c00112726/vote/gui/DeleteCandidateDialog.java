@@ -18,6 +18,7 @@ import javax.swing.border.TitledBorder;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.Graphics;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 
@@ -117,6 +118,9 @@ public class DeleteCandidateDialog extends JDialog {
         private JTextField txtParty;
         private JCheckBox chkDelete;
 
+        private static final int DEFAULT_IMAGE_WIDTH = 128;
+        private static final int DEFAULT_IMAGE_HEIGHT = 128;
+
         public CandidatePanel(Candidate candidate) {
             super();
             this.candidate = candidate;
@@ -143,10 +147,16 @@ public class DeleteCandidateDialog extends JDialog {
             final JPanel imagePanel = new JPanel() {
                 @Override
                 public Dimension getPreferredSize() {
-                    return new Dimension(128, 128);
+                    return new Dimension(DEFAULT_IMAGE_WIDTH, DEFAULT_IMAGE_HEIGHT);
+                }
+
+                @Override
+                public void paintComponent(Graphics g) {
+                    super.paintComponent(g);
+                    g.drawImage(candidate.getImage(), 0, 0, getWidth(), getHeight(), null);
                 }
             };
-            imagePanel.setBorder(new TitledBorder("Candidate"));
+            imagePanel.setBorder(new TitledBorder(""));
             GUIUtilities.addGridItem(this, imagePanel, 0, 0, 2, 3, GridBagConstraints.CENTER);
 
             txtFullName = new JTextField(30);
