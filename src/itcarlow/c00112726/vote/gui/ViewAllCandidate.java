@@ -5,7 +5,6 @@ import itcarlow.c00112726.vote.entity.Candidate;
 import itcarlow.c00112726.vote.util.GUIUtilities;
 
 import javax.swing.JButton;
-import javax.swing.JCheckBox;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -80,7 +79,6 @@ public class ViewAllCandidate extends JDialog {
 
         private JTextField txtFullName;
         private JTextField txtParty;
-        private JCheckBox chkDelete;
 
         private static final int DEFAULT_IMAGE_WIDTH = 128;
         private static final int DEFAULT_IMAGE_HEIGHT = 128;

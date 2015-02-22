@@ -4,7 +4,15 @@ import itcarlow.c00112726.vote.entity.Candidate;
 import itcarlow.c00112726.vote.util.GUIUtilities;
 
 import javax.imageio.ImageIO;
-import javax.swing.*;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JDialog;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
 import javax.swing.border.TitledBorder;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
@@ -115,10 +123,7 @@ public class AddNewCandidateDialog extends JDialog {
         String firstName = txtFirstName.getText().trim();
         String lastName = txtLastName.getText().trim();
         int party = cmbParty.getSelectedIndex();
-        if (firstName.equals("") || lastName.equals("") || party < 0) {
-            return false;
-        }
-        return true;
+        return !(firstName.equals("") || lastName.equals("") || party < 0);
     }
 
     private void submit() {
@@ -146,8 +151,8 @@ public class AddNewCandidateDialog extends JDialog {
         // Obtain image file types supported by Java
         final String[] suffices = ImageIO.getReaderFileSuffixes();
         // Create a filter for each file type and apply it to the file chooser
-        for (int i = 0; i < suffices.length; i++) {
-            FileFilter filter = new FileNameExtensionFilter(suffices[i], suffices[i]);
+        for (String suffice : suffices) {
+            FileFilter filter = new FileNameExtensionFilter(suffice, suffice);
             fc.addChoosableFileFilter(filter);
         }
         //fc.setAcceptAllFileFilterUsed(false);

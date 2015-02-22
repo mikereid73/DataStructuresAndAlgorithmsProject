@@ -3,9 +3,7 @@ package itcarlow.c00112726.vote.entity;
 import itcarlow.c00112726.vote.datastructures.LinkedList;
 import itcarlow.c00112726.vote.datastructures.MinHeap;
 
-import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.io.IOException;
 
 public class Candidate {
 

@@ -7,25 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce41323e-ed18-4ed1-8f4c-826688b87ff5" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Mike\Documents\Programming\java\DataStructuresAndAlgorithmsProject\out\production\DataStructuresAndAlgorithmsProject\itcarlow\c00112726\vote\gui\Window$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Documents\Programming\java\DataStructuresAndAlgorithmsProject\out\production\DataStructuresAndAlgorithmsProject\itcarlow\c00112726\vote\gui\Window$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Documents\Programming\java\DataStructuresAndAlgorithmsProject\out\production\DataStructuresAndAlgorithmsProject\itcarlow\c00112726\vote\gui\Window$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Documents\Programming\java\DataStructuresAndAlgorithmsProject\out\production\DataStructuresAndAlgorithmsProject\itcarlow\c00112726\vote\gui\Window$5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Documents\Programming\java\DataStructuresAndAlgorithmsProject\out\production\DataStructuresAndAlgorithmsProject\itcarlow\c00112726\vote\gui\Window$6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Documents\Programming\java\DataStructuresAndAlgorithmsProject\out\production\DataStructuresAndAlgorithmsProject\itcarlow\c00112726\vote\gui\Window$7.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/AddNewCandidateDialog$1.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/AddNewCandidateDialog$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/AddNewCandidateDialog.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/AddNewCandidateDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/entity/Candidate.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/entity/Candidate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/CastVoteDialog$CandidatePanel$1.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/CastVoteDialog$CandidatePanel$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/CastVoteDialog$CandidatePanel.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/CastVoteDialog$CandidatePanel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/CastVoteDialog.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/CastVoteDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/DeleteCandidateDialog$CandidatePanel$1.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/DeleteCandidateDialog$CandidatePanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/DeleteCandidateDialog$CandidatePanel.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/DeleteCandidateDialog$CandidatePanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/DeleteCandidateDialog.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/DeleteCandidateDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/IntelliJTest_jar/IntelliJTest.jar" afterPath="$PROJECT_DIR$/out/artifacts/IntelliJTest_jar/IntelliJTest.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/ViewAllCandidate$CandidatePanel$1.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/ViewAllCandidate$CandidatePanel$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/ViewAllCandidate$CandidatePanel.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/ViewAllCandidate$CandidatePanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/ViewAllCandidate.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/ViewAllCandidate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$1.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$2.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$3.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$4.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$5.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$6.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$7.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window.class" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithmsProject/itcarlow/c00112726/vote/gui/Window.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructuresAndAlgorithmsProject.iml" afterPath="$PROJECT_DIR$/DataStructuresAndAlgorithmsProject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/AddNewCandidateDialog.java" afterPath="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/AddNewCandidateDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/itcarlow/c00112726/vote/entity/Candidate.java" afterPath="$PROJECT_DIR$/src/itcarlow/c00112726/vote/entity/Candidate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/CastVoteDialog.java" afterPath="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/CastVoteDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/ViewAllCandidate.java" afterPath="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/ViewAllCandidate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/Window.java" afterPath="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/Window.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -52,70 +55,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AddNewCandidateDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/AddNewCandidateDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2285" max-vertical-offset="2992">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="31" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteCandidateDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/DeleteCandidateDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2213" max-vertical-offset="2992">
-              <caret line="149" column="82" selection-start-line="149" selection-start-column="82" selection-end-line="149" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CastVoteDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/CastVoteDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2472" max-vertical-offset="3417">
-              <caret line="164" column="82" selection-start-line="164" selection-start-column="82" selection-end-line="164" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewAllCandidate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/ViewAllCandidate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1300" max-vertical-offset="2210">
-              <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Window.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Window.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45287356" vertical-offset="1894" max-vertical-offset="2618">
-              <caret line="139" column="14" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1652" max-vertical-offset="3655">
+              <caret line="122" column="60" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Candidate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/entity/Candidate.java">
+      <file leaf-file-name="CastVoteDialog.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/CastVoteDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="758" max-vertical-offset="1683">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.36177474" vertical-offset="400" max-vertical-offset="3468">
+              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,10 +100,10 @@
         <option value="$PROJECT_DIR$/src/itcarlow/c00112726/vote/entity/BallotPaper.java" />
         <option value="$PROJECT_DIR$/src/itcarlow/c00112726/vote/entity/Party.java" />
         <option value="$PROJECT_DIR$/src/itcarlow/c00112726/vote/entity/Candidate.java" />
-        <option value="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/AddNewCandidateDialog.java" />
         <option value="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/DeleteCandidateDialog.java" />
-        <option value="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/CastVoteDialog.java" />
+        <option value="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/AddNewCandidateDialog.java" />
         <option value="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/ViewAllCandidate.java" />
+        <option value="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/CastVoteDialog.java" />
         <option value="$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/Window.java" />
       </list>
     </option>
@@ -182,7 +141,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <flattenPackages ProjectPane="true" />
       <showMembers />
       <showModules />
@@ -194,6 +153,58 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -258,126 +269,6 @@
             <PATH_ELEMENT USER_OBJECT="gui">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructuresAndAlgorithmsProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -457,6 +348,8 @@
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="datastructuresandalgorithmsproject" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -674,32 +567,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24469821" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15355521" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20045386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3562044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24379562" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33835846" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3562044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -755,40 +648,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/AddNewCandidateDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1853">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/DeleteCandidateDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1972">
-          <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/CastVoteDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2159">
-          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/entity/Candidate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1428">
@@ -1078,64 +937,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/DeleteCandidateDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2213" max-vertical-offset="2992">
-          <caret line="149" column="82" selection-start-line="149" selection-start-column="82" selection-end-line="149" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/CastVoteDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2472" max-vertical-offset="3417">
-          <caret line="164" column="82" selection-start-line="164" selection-start-column="82" selection-end-line="164" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/ViewAllCandidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1300" max-vertical-offset="2210">
-          <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/AddNewCandidateDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="3026">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/entity/Candidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="758" max-vertical-offset="1683">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/test images/gerry adams.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/javax/swing/filechooser/FileNameExtensionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="688" max-vertical-offset="2346">
+          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/AddNewCandidateDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="365" max-vertical-offset="3077">
+          <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/DeleteCandidateDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="353" max-vertical-offset="3026">
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/ViewAllCandidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2176">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/entity/Candidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7218391" vertical-offset="909" max-vertical-offset="1683">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45287356" vertical-offset="1894" max-vertical-offset="2618">
-          <caret line="139" column="14" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1652" max-vertical-offset="3655">
+          <caret line="122" column="60" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/awt/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="7017" max-vertical-offset="67592">
+          <caret line="482" column="17" selection-start-line="482" selection-start-column="17" selection-end-line="482" selection-end-column="17" />
+          <folding>
+            <element signature="e#14528#14529#0" expanded="true" />
+            <element signature="e#14552#14553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/awt/Dialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36177474" vertical-offset="10158" max-vertical-offset="28169">
+          <caret line="664" column="10" selection-start-line="664" selection-start-column="10" selection-end-line="664" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/javax/swing/JDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36300173" vertical-offset="3838" max-vertical-offset="20876">
+          <caret line="271" column="9" selection-start-line="271" selection-start-column="9" selection-end-line="271" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/itcarlow/c00112726/vote/gui/CastVoteDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36177474" vertical-offset="400" max-vertical-offset="3468">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

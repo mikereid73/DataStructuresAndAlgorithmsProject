@@ -7,6 +7,7 @@ import itcarlow.c00112726.vote.util.GUIUtilities;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -32,7 +33,7 @@ public class CastVoteDialog extends javax.swing.JDialog {
 
     private LinkedList<CandidatePanel> allCandidates;
 
-    public CastVoteDialog(javax.swing.JFrame parent) {
+    public CastVoteDialog(JFrame parent) {
         super(parent, "Please Select Candidate Preferences", true);
         setLayout(new java.awt.BorderLayout());
 
@@ -87,7 +88,7 @@ public class CastVoteDialog extends javax.swing.JDialog {
 
     private void submit() {
         if(!validateBallot()) {
-            JOptionPane.showMessageDialog(this, "1 or more preference conflicts.", "Error", JOptionPane.OK_OPTION);
+            JOptionPane.showMessageDialog(this, "1 or more preference conflicts.", "Error", JOptionPane.ERROR_MESSAGE);
             return;
         }
         final BallotPaper paper = new BallotPaper();
@@ -96,6 +97,8 @@ public class CastVoteDialog extends javax.swing.JDialog {
         }
         final Candidate winner = paper.removeCurrentWinner();
         winner.add(paper);
+        JOptionPane.showMessageDialog(this, "Your vote has been cast.", "Successful", JOptionPane.INFORMATION_MESSAGE);
+        dispose();
     }
 
     private boolean validateBallot() {
