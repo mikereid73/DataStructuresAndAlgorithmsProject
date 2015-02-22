@@ -129,6 +129,7 @@ public class Window extends JFrame implements WindowListener {
         btnCalculateResults.addActionListener(e -> {
 
         });
+        btnCalculateResults.setEnabled(false);
 
         voteControlsPanel.add(btnBeginVoting);
         voteControlsPanel.add(btnCastNewVote);
@@ -145,6 +146,7 @@ public class Window extends JFrame implements WindowListener {
         btnViewAllCandidates.setEnabled(!btnViewAllCandidates.isEnabled());
         btnBeginVoting.setEnabled(!btnBeginVoting.isEnabled());
         btnCastNewVote.setEnabled(!btnCastNewVote.isEnabled());
+        btnCalculateResults.setEnabled(!btnCalculateResults.isEnabled());
     }
 
     private void loadTestData() {
