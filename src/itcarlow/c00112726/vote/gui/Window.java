@@ -1,5 +1,7 @@
 package itcarlow.c00112726.vote.gui;
 
+import itcarlow.c00112726.vote.datastructures.LinkedList;
+import itcarlow.c00112726.vote.entity.BallotPaper;
 import itcarlow.c00112726.vote.entity.Candidate;
 
 import javax.imageio.ImageIO;
@@ -17,6 +19,7 @@ import java.awt.GridBagLayout;
 import java.awt.GridLayout;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
+import java.util.Random;
 
 /**
  * Created by Mike on 18/02/2015.
@@ -25,7 +28,6 @@ public class Window extends JFrame implements WindowListener {
 
     private static final String TITLE = "Vote Counting App";
     private JPanel contentPane;
-    private JScrollPane mainScrollPain;
 
     private JButton btnAddNewCandidate;
     private JButton btnDeleteCandidate;
@@ -33,6 +35,8 @@ public class Window extends JFrame implements WindowListener {
     private JButton btnBeginVoting;
     private JButton btnCastNewVote;
     private JButton btnCalculateResults;
+
+    private ResultsPanel resultsPanel;
 
     private static boolean VOTE_IN_PROGRESS = false;
 
@@ -45,6 +49,16 @@ public class Window extends JFrame implements WindowListener {
 
             @Override
             public Dimension getPreferredSize() {
+                return new Dimension(WIDTH, HEIGHT);
+            }
+
+            @Override
+            public Dimension getMinimumSize() {
+                return new Dimension(WIDTH, HEIGHT);
+            }
+
+            @Override
+            public Dimension getMaximumSize() {
                 return new Dimension(WIDTH, HEIGHT);
             }
 
@@ -67,9 +81,6 @@ public class Window extends JFrame implements WindowListener {
     }
 
     private void generateGUI() {
-
-        mainScrollPain = new JScrollPane(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
-        add(mainScrollPain, BorderLayout.CENTER);
 
         final JPanel toolPanel = new JPanel();
         toolPanel.setLayout(new GridLayout(1, 2, 5, 5));
@@ -107,16 +118,7 @@ public class Window extends JFrame implements WindowListener {
         voteControlsPanel.setBorder(new TitledBorder("Vote Controls"));
 
         btnBeginVoting = new JButton("Begin Voting");
-        btnBeginVoting.addActionListener(e -> {
-            final int result = JOptionPane.showConfirmDialog(this, "By starting the voting process, " +
-            "you cannot add or delete candidates \nuntil the vote has been complete. \nDo you wish to " +
-            "continue?", "Begin Voting", JOptionPane.YES_NO_OPTION);
-
-            if(result == JOptionPane.OK_OPTION) {
-                beginVotingPreparation();
-            }
-
-        });
+        btnBeginVoting.addActionListener(e -> beginVotingPreparation());
 
         btnCastNewVote = new JButton("Cast New Vote");
         btnCastNewVote.addActionListener(e -> {
@@ -126,9 +128,7 @@ public class Window extends JFrame implements WindowListener {
         btnCastNewVote.setEnabled(false);
 
         btnCalculateResults = new JButton("Calculate Results");
-        btnCalculateResults.addActionListener(e -> {
-
-        });
+        btnCalculateResults.addActionListener(e -> beginCalculatingResults());
         btnCalculateResults.setEnabled(false);
 
         voteControlsPanel.add(btnBeginVoting);
@@ -136,10 +136,21 @@ public class Window extends JFrame implements WindowListener {
         voteControlsPanel.add(btnCalculateResults);
         toolPanel.add(voteControlsPanel);
 
+        resultsPanel = new ResultsPanel();
+        contentPane.add(resultsPanel, BorderLayout.CENTER);
         contentPane.add(toolPanel, BorderLayout.SOUTH);
     }
 
     private void beginVotingPreparation() {
+
+        final int result = JOptionPane.showConfirmDialog(this, "By starting the voting process, " +
+                "you cannot add or delete candidates \nuntil the vote has been complete. \nDo you wish to " +
+                "continue?", "Begin Voting", JOptionPane.YES_NO_OPTION);
+
+        if(result == JOptionPane.NO_OPTION) {
+           return;
+        }
+
         VOTE_IN_PROGRESS = !VOTE_IN_PROGRESS;
         btnAddNewCandidate.setEnabled(!btnAddNewCandidate.isEnabled());
         btnDeleteCandidate.setEnabled(!btnDeleteCandidate.isEnabled());
@@ -149,9 +160,24 @@ public class Window extends JFrame implements WindowListener {
         btnCalculateResults.setEnabled(!btnCalculateResults.isEnabled());
     }
 
+    private void beginCalculatingResults() {
+
+        final int result = JOptionPane.showConfirmDialog(this, "By starting to calculate results, " +
+                "you cannot cast any more \nuntil the count has been complete. \nDo you wish to " +
+                "continue?", "Calculate Results", JOptionPane.YES_NO_OPTION);
+
+        if(result == JOptionPane.NO_OPTION) {
+            return;
+        }
+
+        btnCastNewVote.setEnabled(false);
+        btnCalculateResults.setEnabled(false);
+        resultsPanel.start();
+    }
+
     private void loadTestData() {
         /*
-            RANDOM TEST DATA - DELETE BEFORE SUBMITTING OTHERWISE YOU ARE AN IDIOT
+         * RANDOM TEST DATA
          */
         try {
             Candidate c1 = new Candidate("Enda", "Kenny", "Fine Gael");
@@ -180,6 +206,26 @@ public class Window extends JFrame implements WindowListener {
         }
         catch(Exception e) {
             e.printStackTrace();
+        }
+
+        for(int j = 0; j < 1500; j++) {
+            LinkedList<Integer> prefs = new LinkedList<>();
+            LinkedList<Candidate> cands = Candidate.getCandidateList();
+            Random random = new Random();
+
+            for(int i = 1; i <= Candidate.numberOfCandidates(); i++) {
+                prefs.add(i);
+            }
+
+            final BallotPaper paper = new BallotPaper();
+            for(int i = 0; i < cands.size(); i++) {
+                final Candidate current = cands.get(i);
+
+                final int pref = prefs.remove(random.nextInt(prefs.size()));
+                paper.addCandidate(pref, current);
+            }
+            Candidate winner = paper.removeCurrentWinner();
+            winner.add(paper);
         }
 
     }

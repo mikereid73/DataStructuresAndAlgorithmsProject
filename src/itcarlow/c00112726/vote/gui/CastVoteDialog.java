@@ -21,6 +21,8 @@ import java.awt.FlowLayout;
 import java.awt.Graphics;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 
 public class CastVoteDialog extends javax.swing.JDialog {
 
@@ -126,7 +128,7 @@ public class CastVoteDialog extends javax.swing.JDialog {
     private static class CandidatePanel extends JPanel {
 
         private Candidate candidate;
-        private JComboBox<Integer> preferenceComboBox;
+        private JComboBox<Integer> cmbPreference;
 
         private static final int DEFAULT_IMAGE_WIDTH = 128;
         private static final int DEFAULT_IMAGE_HEIGHT = 128;
@@ -147,7 +149,7 @@ public class CastVoteDialog extends javax.swing.JDialog {
         public int getPreference() {
             int preference;
             try {
-                preference = Integer.parseInt(preferenceComboBox.getSelectedItem().toString());
+                preference = Integer.parseInt(cmbPreference.getSelectedItem().toString());
             }
             catch (Exception e) {
                 preference = -1;
@@ -157,7 +159,7 @@ public class CastVoteDialog extends javax.swing.JDialog {
         }
 
         public void setPreference(int i) {
-            preferenceComboBox.setSelectedIndex(i);
+            cmbPreference.setSelectedIndex(i);
         }
 
         private void generateGUI() {
@@ -195,12 +197,12 @@ public class CastVoteDialog extends javax.swing.JDialog {
             final JLabel preferenceLabel = new JLabel("Preference: ");
             GUIUtilities.addGridItem(this, preferenceLabel, 2, 2, 2, 1, GridBagConstraints.EAST);
 
-            preferenceComboBox = new JComboBox<>();
+            cmbPreference = new JComboBox<>();
             for(int i = 1; i <= Candidate.numberOfCandidates(); i++) {
-                preferenceComboBox.addItem(i);
+                cmbPreference.addItem(i);
             }
-            preferenceComboBox.setSelectedIndex(-1);
-            GUIUtilities.addGridItem(this, preferenceComboBox, 4, 2, 2, 1, GridBagConstraints.WEST);
+            cmbPreference.setSelectedIndex(-1);
+            GUIUtilities.addGridItem(this, cmbPreference, 4, 2, 2, 1, GridBagConstraints.WEST);
         }
     }
 }

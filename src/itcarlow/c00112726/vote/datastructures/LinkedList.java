@@ -238,7 +238,11 @@ public class LinkedList<T> implements Iterable<T> {
 		}		
 	}
 	
-	
+	public void clear() {
+        while(size() > 0) {
+            remove();
+        }
+    }
 	
 	/**
 	 * Returns data from the first list element.

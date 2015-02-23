@@ -90,17 +90,15 @@ public class Candidate {
         ballotPapers.add(1, ballot);
     }
 
-    public int numberOfVotes() {
+    public int getNumberOfVotes() {
         return ballotPapers.size();
     }
 
-    public void reassignBallotPapers() {
+    public void reassignBallotPapers( LinkedList<Candidate> candidatesInTheRunning) {
         while(!ballotPapers.empty()) {
             final BallotPaper current = ballotPapers.remove();
-            current.reassignPaper();
+            current.reassignPaper(candidatesInTheRunning);
         }
-        System.out.println("Removed: " + this);
-        Candidate.ALL_CANDIDATES.remove(this);
     }
     @Override
     public boolean equals(Object object) {

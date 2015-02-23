@@ -1,5 +1,6 @@
 package itcarlow.c00112726.vote.entity;
 
+import itcarlow.c00112726.vote.datastructures.LinkedList;
 import itcarlow.c00112726.vote.datastructures.MinHeap;
 
 public class BallotPaper {
@@ -30,8 +31,14 @@ public class BallotPaper {
     /**
      * Reassigns the paper to the candidate with the next best preference.
      */
-    public void reassignPaper() {
+    public void reassignPaper(LinkedList<Candidate> candidatesInTheRunning) {
+        if(candidatePreferences.empty()) {
+            return;
+        }
         Candidate nextPreference = candidatePreferences.remove();
+        while(!candidatePreferences.empty() && !candidatesInTheRunning.contains(nextPreference)) {
+            nextPreference = candidatePreferences.remove();
+        }
         nextPreference.add(this);
     }
     
